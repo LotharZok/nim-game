@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.disp-none {
+    display: none;
+}
+
+.height-24 {
+    height: 24px;
+}
+
+.bg-lightred {
+    background-color: lightcoral;
+}
+
+.bg-lightgreen {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+
+.bg-red {
+    background-color: red;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#terminateGame {
+    text-align: center;
+}
+
+#playground {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.imgToken {
+    height: 50px;
+}
+
+.possibleMoves {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#possibleMovesKI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.card-header-KI {
+    padding: 16px 4px 16px 4px !important;
+}
+
+.card-body {
+    text-align: center;
+    min-height: 57px;
+}
+
+.card-body-KI {
+    padding: 16px 4px 16px 4px !important;
+    border-radius: 0 0 4px 4px;
+}
+
+.card-body-KI span {
+    border: 1px solid lightgray;
+    padding: 1px;
+    border-radius: 4px;
+    color: white;
+}
+
+.impressum {
+    padding: 32px;
+}
+
+@media (max-width: 850px) {
+    #possibleMovesKI {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
